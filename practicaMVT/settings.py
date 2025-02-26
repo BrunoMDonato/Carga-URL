@@ -56,7 +56,7 @@ ROOT_URLCONF = 'practicaMVT.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'ent_MVT', 'templates'],
+        'DIRS': [os.path.join(BASE_DIR, 'ent_MVT', 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
